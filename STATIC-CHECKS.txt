@@ -1,0 +1,17 @@
+PASS: 1254 inventoried files; 6 projects; 647 C# files scanned; 171 XML files; 5 resource references.
+PASS: 19 capture tools and 21 editor tools retained; original capture host matches upstream.
+STATIC SCANNER LIMIT: does not test compilation, Windows behavior or runtime network traffic.
+
+PASS: full Release build/publish 0.1.3 for Windows x64 using SDK 10.0.404.
+PASS: all five capture/editor library hashes match 0.1.2.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+PASS: built assembly shareW has no forbidden assembly/type references or upload hooks checked by this audit.
+PASS: built assembly ShareX.Avalonia has no forbidden assembly/type references or upload hooks checked by this audit.
+PASS: built assembly ShareX.HelpersLib has no forbidden assembly/type references or upload hooks checked by this audit.
+PASS: built assembly ShareX.Icons has no forbidden assembly/type references or upload hooks checked by this audit.
+PASS: built assembly ShareX.ImageEditor has no forbidden assembly/type references or upload hooks checked by this audit.
+PASS: built assembly ShareX.ScreenCaptureLib has no forbidden assembly/type references or upload hooks checked by this audit.
+LIMIT: metadata checks do not test indirect calls, third-party implementations or Windows runtime traffic.
+
+PENDING: native Windows clipboard import from other apps, main-window Ctrl+V, tray entry and local copied image files.

@@ -1,0 +1,8 @@
+upstream/
+artifacts/
+.offline-preparation/
+offline-inputs/
+**/bin/
+**/obj/
+*.user
+*.suo

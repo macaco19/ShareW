@@ -1,0 +1,51 @@
+shareW 0.1.3 - version inicial para pruebas en Windows x64
+
+Extrae el ZIP completo en una carpeta. Ejecuta shareW.exe manteniendo
+las DLL, los recursos y las demas carpetas junto al ejecutable.
+Incluye .NET: el equipo de destino no necesita instalar el SDK.
+No requiere instalador ni ejecucion como administrador.
+
+PRIMERA PRUEBA
+1. Pulsa Capturar region o Ctrl + Impr Pant.
+2. Selecciona una zona y utiliza las herramientas de la barra.
+3. Tab alterna entre region y anotacion. Enter confirma y copia; Esc cancela.
+4. Pega la imagen con Ctrl + V. shareW queda en la bandeja.
+5. Abre shareW desde su icono para ver, editar o guardar la ultima captura.
+
+IMAGENES DEL PORTAPAPELES
+Copia una imagen desde otra aplicacion. Pulsa Editar imagen del portapapeles
+o Ctrl+V en la ventana principal. Se abre el editor sin guardar un archivo.
+Tambien puedes usar Editar imagen del portapapeles desde el menu de bandeja.
+No requiere una captura previa. Abrir el editor no cambia el portapapeles.
+Ctrl+V dentro del editor conserva su pegado original.
+
+BANDEJA DE WINDOWS
+Cerrar la ventana con X mantiene shareW activo y los atajos funcionando.
+El icono de camara azul puede estar en el menu de iconos ocultos (^).
+Clic en el icono abre shareW; clic derecho ofrece Capturar region y Salir.
+Salir de shareW cierra completamente el programa y libera sus atajos.
+
+Ambas mejoras tienen una casilla para desactivarlas en la ventana principal.
+Si falla la copia, se muestra el error y se conserva la imagen.
+
+Si Windows u otra aplicacion tiene ocupado un atajo, aparecera un aviso.
+Puedes realizar las capturas mediante los botones.
+
+Esta variante utiliza la captura y anotacion de ShareX 22.4.0.
+No incluye modulos de subida ni importacion de imagenes por URL.
+La ultima captura permanece en memoria hasta sustituirla o cerrar shareW.
+Los ajustes se guardan en %LOCALAPPDATA%\shareW\settings.json.
+
+ESTADO DE LAS PRUEBAS
+El codigo se ha compilado para Windows desde Linux.
+La captura real, los atajos, el escalado DPI y el portapapeles deben
+probarse en Windows. Consulta VALIDACION.md y HERRAMIENTAS.md.
+Si falla, anota la accion y el mensaje exacto para poder corregirlo.
+
+El comportamiento de sincronizacion de carpetas o del portapapeles
+depende de Windows y de la configuracion de tu organizacion.
+La compilacion no esta firmada ni incluye aprobacion o excepciones EPM.
+
+LICENCIAS
+Proyecto derivado de ShareX, sin afiliacion con su equipo.
+Consulta LICENSE, Licenses y los archivos de procedencia incluidos.
