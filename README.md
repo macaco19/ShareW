@@ -14,6 +14,8 @@ No installation or separate .NET installation is needed. Keep all included files
 
 ## Features
 
+![[image-demo-shareW.png]]
+
 - Region, full-screen, and active-window capture.
 - ShareX's capture toolbar and image editor: arrows, text, shapes, numbered steps, blur, pixelation, and more.
 - Edit clipboard images without saving them first.
